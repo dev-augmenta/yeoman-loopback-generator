@@ -1,0 +1,29 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory",
+    "file": "data/db.json"
+  },
+  "mongolab": {
+    "host": "ds043615.mongolab.com",
+    "port": 43615,
+    "database": "heroku_4201mq4b",
+    "username": "vrseum_devserver",
+    "password": "PieroAugmenta15",
+    "name": "mongolab",
+    "server": {
+      "auto_reconnect": true,
+      "reconnectTries": 100,
+      "reconnectInterval": 1000
+    },
+    "connector": "mongodb"
+  },
+  "storage": {
+    "name": "storage",
+    "connector": "loopback-component-storage",
+    "provider": "amazon",
+    "region": "eu-central-1",
+    "key": "bjijxfFMR2ue7KlgsgVveUAyc2YaBnhmuW4+rQSG",
+    "keyId": "AKIAJWIFE6NBOUEKJRZQ"
+  }
+}
